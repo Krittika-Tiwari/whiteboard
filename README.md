@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Whiteboard - Figma Clone
 
-## Getting Started
+Whiteboard is a web application designed to replicate the functionality of Figma, a popular collaborative design tool. With Whiteboard, users can create, edit, and collaborate on designs in real-time, just like they would in Figma.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Real-time Collaboration:** Multiple users can work on the same design simultaneously, seeing each other's changes in real-time.
+- **Drawing Tools:** Whiteboard provides a variety of drawing tools such as pens, pencils, shapes, and text, allowing users to create intricate designs.
+- **Layer Management:** Users can manage layers to organize their designs effectively, arranging objects in front or behind one another.
+- **Import and Export:** Whiteboard supports importing designs from Figma and exporting designs to various file formats such as PNG, JPEG, SVG, etc.
+- **Version History:** Users can access the version history of designs, allowing them to revert to previous versions if needed.
+- **Sharing and Collaboration:** Designs can be shared with others via links, and collaborators can provide feedback or make edits.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   git clone https://github.com/your-username/whiteboard.git
 
-## Learn More
+2. Navigate to the project directory:
+  ```bash
+  cd whiteboard
 
-To learn more about Next.js, take a look at the following resources:
+3. Install dependencies:
+   ```bash
+   npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Start the development server: 
+     ```bash
+     npm start
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. Open your browser and navigate to `http://localhost:3000` to access Whiteboard.
 
-## Deploy on Vercel
+## Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **React:** Whiteboard is built using React.js, a popular JavaScript library for building user interfaces.
+- **Redux:** Redux is used for state management, allowing for predictable and centralized state management across the application.
+- **WebSocket:** WebSockets are utilized for real-time communication between clients and the server, enabling real-time collaboration.
+- **HTML Canvas:** The drawing functionality is implemented using HTML Canvas element, providing a versatile and efficient way to render graphics.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests for any improvements or bug fixes you'd like to contribute.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
